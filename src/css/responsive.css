@@ -1,0 +1,79 @@
+@media (max-width: 930px) {
+    .slide .conteudo {
+        max-width: 100%;
+        margin: auto;
+        width: 500px;
+        height: 660px;
+    }
+
+    body {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 700px) {
+    .slide .conteudo {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .conteudo .texto {
+        font-size: 20px;
+    }
+
+    .imagens-slider .seta-voltar .imagem-seta {
+        background-color: rgb(120, 250, 141);
+        border-radius: 10px;
+        width: 35px;
+        padding: 10px;
+    }
+
+    .imagens-slider .seta-avancar .imagem-seta {
+        background-color: rgb(120, 250, 141);
+        border-radius: 10px;
+        width: 35px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 530px) {
+    .slide .conteudo {
+        max-width: 100%;
+        padding: 20px;
+        margin: 50px;
+        height: 300px;
+        position: relative;
+    }
+
+    .conteudo .titulo {
+        font-size: 30px;
+    }
+
+    .conteudo .texto {
+        font-size: 10px;
+        position: absolute;
+        padding-right: 14px;
+
+    }
+
+    .conteudo .botao {
+        position: relative;
+        top: 50%;
+        font-size: 15px;
+    }
+
+    .imagens-slider .seta-voltar .imagem-seta {
+        background-color: rgb(120, 250, 141);
+        border-radius: 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .imagens-slider .seta-avancar .imagem-seta {
+        background-color: rgb(120, 250, 141);
+        border-radius: 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+}
